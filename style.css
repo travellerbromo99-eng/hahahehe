@@ -1,13 +1,25 @@
-body{background-color: #4dd2ff; /* warna biru cerah */font-family Arial, sans serif; /* color: #191970;}
-  
-.kartu profil {
-  width: 300px;
-  margin: 50px auto; /* 50px atas/bawah,
-  padding: 20px:
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0,1)
-text-align: center}
+/* Aturan untuk keseluruhan halaman */
+body {
+    background-color: #4dd2ff; /* warna biru cerah */
+    font-family: Arial, sans-serif;
+    color: #191970; /* Warna biru tua untuk teks di body (opsional) */
+}
+  
+/* Aturan untuk kotak profil kamu */
+.kartu-profil {
+    width: 300px;
+    /* margin 50px atas/bawah, auto kiri/kanan agar di tengah */
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    /* Bayangan kotak: 0 ke samping, 4px ke bawah, 8px blur, warna hitam dengan transparansi 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+/* Aturan khusus untuk gambar di dalam kotak profil */
 .kartu-profil img {
-  width: 150px;
-  border-radius: 50%}
+    width: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+}
