@@ -2,11 +2,11 @@ body{background-color: #4dd2ff; /* warna biru cerah */font-family Arial, sans se
   
 .kartu profil {
   width: 300px;
-  margin: 50px auto;
+  margin: 50px auto; /* 50px atas/bawah,
   padding: 20px:
-background-color: white;
-border-radius: 15px;
-box-shadow: 0 4px 8px rgba(0,0,0,0,1)
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0,1)
 text-align: center 
 }
 
