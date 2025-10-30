@@ -1,0 +1,2 @@
+# hahahehe
+belajar tik
